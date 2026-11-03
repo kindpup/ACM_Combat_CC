@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{2D52F89F1EE9BAE1}Assets/crye_g3_shirt_rolled/M81/Data/cryeg3trousers.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

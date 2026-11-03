@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{D24B2B9943302A29}Prefabs/Characters/Uniforms/CIV/Jacket_Hoodie/GHOST_FACE_Hoodie.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

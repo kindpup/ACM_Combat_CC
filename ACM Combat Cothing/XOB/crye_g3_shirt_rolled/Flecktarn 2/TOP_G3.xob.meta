@@ -1,0 +1,44 @@
+MetaFileClass {
+ Name "{2FA43B57C52EDD1B}XOB/crye_g3_shirt_rolled/Flecktarn 2/TOP_G3.xob"
+ Configurations {
+  FBXResourceClass PC {
+   ExportSkinning 1
+   Rotate 0 180 0
+   MaterialAssigns {
+    MaterialAssignClass "{6AAE31217E906A8D}" {
+     SourceMaterial "Material"
+     AssignedMaterial "{8C7FBF2829D2DB6D}XOB/crye_g3_shirt_rolled/Flecktarn 2/Data/Material.emat"
+    }
+   }
+   MeshParams {
+    MeshParam "crye_g3_shirt_rolled_LOD0.001" {
+    }
+   }
+   Common TXOCommonClass "{6AAE31217EB0FE81}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Blender Foundation"
+   ApplicationName "Blender (stable FBX IO)"
+   ApplicationVersion "5.0.0"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6AAE31217EB0FF38}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6AAE31217EB0FFD0}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6AAE31217EB0FFF5}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6AAE31217EB0FF89}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6AAE31217EB0FFAD}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

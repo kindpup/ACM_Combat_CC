@@ -1,0 +1,6 @@
+MatPBRBasic {
+ GlobalLayerBCRMap "{7391451638BBC787}Assets/cryeg3trousers_LOD0/deta/cryeg3trousers_multicam_BCR.edds"
+ GlobalLayerNMOMap "{552BE64F4CC48A29}Assets/cryeg3trousers_LOD0/deta/cryeg3trousers_BCR.edds"
+ BCRMap "{7391451638BBC787}Assets/cryeg3trousers_LOD0/deta/cryeg3trousers_multicam_BCR.edds"
+ NMOMap "{6DF35DDD95B3D8B7}Assets/cryeg3trousers_LOD0/deta/cryeg3trousers_NMO.edds"
+}

@@ -1,0 +1,8 @@
+GameProject {
+ ID "ACMCombatCothing"
+ GUID "6A8CBA3B313ECD5F"
+ TITLE "ACM Combat Cothing"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+}

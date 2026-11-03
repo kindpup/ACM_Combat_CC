@@ -1,0 +1,51 @@
+GenericEntity : "{80C8C9227D2C7CF5}Prefabs/Characters/Core/Footwear_Base.et" {
+ ID "5244C46FA7C5E08C"
+ components {
+  InventoryItemComponent "{5244C46AD695742D}" {
+   Attributes SCR_ItemAttributeCollection "{69AC1B67ECE563C0}" {
+    ItemDisplayName UIInfo "{69AC1B67ECE563F2}" {
+     Name "CB_OD"
+     Description "CB_OD_BOOTS"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{69AC1B67ECE563F5}" {
+     Weight 2
+     SizeSetupStrategy Manual
+     ItemDimensions 15 15 15
+     ItemVolume 2500
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{69AC1B67ECE563E8}" {
+      CameraOrbitAngles -25 25 0
+      CameraDistanceToItem 2.5
+      FOV 10
+      PreviewModel "{3C00150F7CED037A}xob/BOOTS/CB_OD_FL.xob"
+     }
+    }
+   }
+  }
+  MeshObject "{5244C34DEE7DBFB4}" {
+   Object "{3C00150F7CED037A}xob/BOOTS/CB_OD_FL.xob"
+  }
+  BaseLoadoutClothComponent "{5244C34DEE7DBFB2}" {
+   AreaType LoadoutBootsArea "{69AC1B67ECE563EF}" {
+   }
+   WornModel "{D2AB0F4816292D4D}xob/BOOTS/CB_OD.xob"
+   ItemModel "{3C00150F7CED037A}xob/BOOTS/CB_OD_FL.xob"
+   SoundInt 610
+   OverrideMeshesToHide {
+    "Foot_L" "Foot_R" "Calf_L" "Calf_R" "Leg_R" "Leg_L"
+   }
+   DeflatedModel "{3C00150F7CED037A}xob/BOOTS/CB_OD_FL.xob"
+  }
+  ActionsManagerComponent "{5244C34DEE7DBF9F}" {
+   ActionContexts {
+    UserActionContext "{5244C34DEE7DBF83}" {
+     Position PointInfo "{5244C34DEE7DBF80}" {
+      Offset 0 0.1 0
+     }
+    }
+   }
+  }
+ }
+ coords 174.411 1 146.557
+}

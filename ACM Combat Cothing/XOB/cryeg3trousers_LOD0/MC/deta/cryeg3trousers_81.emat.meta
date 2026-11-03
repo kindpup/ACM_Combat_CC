@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{F7112AF32162C1D9}Assets/cryeg3trousers_LOD0/deta/cryeg3trousers_81.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

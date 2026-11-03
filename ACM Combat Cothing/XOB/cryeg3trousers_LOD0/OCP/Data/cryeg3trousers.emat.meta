@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{6B49BE4FB63C9A49}XOB/cryeg3trousers_LOD0/OCP/Data/cryeg3trousers.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

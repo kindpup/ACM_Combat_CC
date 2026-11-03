@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{188D3DF7D56B96DD}Prefabs/Characters/Uniforms/bottom/crye_g3_trousers_Flecktarn_2.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

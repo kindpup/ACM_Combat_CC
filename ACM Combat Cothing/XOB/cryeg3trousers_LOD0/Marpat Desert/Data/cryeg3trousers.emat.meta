@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{61F47AC8D9D5D654}XOB/cryeg3trousers_LOD0/Marpat Desert/Data/cryeg3trousers.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

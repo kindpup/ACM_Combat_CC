@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{8FBE6C1FDAD1E10A}Assets/Boots/Data/BCT_low_BCR.edds"
+ NMOMap "{B766D78D03A6B394}Assets/Boots/Data/BCT_low_NMO.edds"
+}

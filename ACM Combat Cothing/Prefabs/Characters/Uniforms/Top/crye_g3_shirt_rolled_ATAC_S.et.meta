@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{CE1DDDEE8D6E5CCF}Prefabs/Characters/Uniforms/Top/crye_g3_shirt_rolled_ATAC_S.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

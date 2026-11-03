@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{08A86B2C08E9A0D4}Assets/crye_g3_shirt_rolled/EMR/Data/crye_g3_shirt_rolled_EMR_BCR.edds"
+ NMOMap "{3070D0BED19EF24A}Assets/crye_g3_shirt_rolled/EMR/Data/crye_g3_shirt_rolled_EMR_NMO.edds"
+}

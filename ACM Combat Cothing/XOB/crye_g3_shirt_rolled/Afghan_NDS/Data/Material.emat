@@ -1,0 +1,6 @@
+MatPBRBasic {
+ GlobalLayerBCRMap "{20F15B6B56C25CE0}XOB/crye_g3_shirt_rolled/Afghan_NDS/Data/crye_g3_shirt_rolled_Afghan_NDS_BCR.edds"
+ GlobalLayerNMOMap "{A37A8D6B2244F83B}XOB/crye_g3_shirt_rolled/NMO/crye_g3_shirt_rolled_NMO.edds"
+ BCRMap "{20F15B6B56C25CE0}XOB/crye_g3_shirt_rolled/Afghan_NDS/Data/crye_g3_shirt_rolled_Afghan_NDS_BCR.edds"
+ NMOMap "{A37A8D6B2244F83B}XOB/crye_g3_shirt_rolled/NMO/crye_g3_shirt_rolled_NMO.edds"
+}

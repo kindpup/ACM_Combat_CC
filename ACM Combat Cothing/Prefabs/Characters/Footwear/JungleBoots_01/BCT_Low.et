@@ -1,0 +1,51 @@
+GenericEntity : "{80C8C9227D2C7CF5}Prefabs/Characters/Core/Footwear_Base.et" {
+ ID "5244C46FA7C5E08C"
+ components {
+  InventoryItemComponent "{5244C46AD695742D}" {
+   Attributes SCR_ItemAttributeCollection "{6A874177EEEFCB0B}" {
+    ItemDisplayName UIInfo "{6A874177EEEFCB36}" {
+     Name "BCT_Low"
+     Description "#AR-Boots_JungleBoots_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{6A874177EEEFCB29}" {
+     Weight 2
+     SizeSetupStrategy Manual
+     ItemDimensions 15 15 15
+     ItemVolume 2500
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{6A874177EEEFCB2D}" {
+      CameraOrbitAngles -25 25 0
+      CameraDistanceToItem 2.5
+      FOV 10
+      PreviewModel "{A0E0E888D2DA4D6C}Assets/Characters/Footwear/JungleBoots_01/JungleBoots_01_item.xob"
+     }
+    }
+   }
+  }
+  MeshObject "{5244C34DEE7DBFB4}" {
+   Object "{A0E0E888D2DA4D6C}Assets/Characters/Footwear/JungleBoots_01/JungleBoots_01_item.xob"
+  }
+  BaseLoadoutClothComponent "{5244C34DEE7DBFB2}" {
+   AreaType LoadoutBootsArea "{6A874177EEEFCB22}" {
+   }
+   WornModel "{76EF99FBE09AFCD2}Assets/Boots/BCT_low.xob"
+   ItemModel "{DAB16CC387F26EE9}Assets/Boots/BCT_low_FL.xob"
+   SoundInt 630
+   OverrideMeshesToHide {
+    "Foot_L" "Foot_R"
+   }
+   DeflatedModel "{DAB16CC387F26EE9}Assets/Boots/BCT_low_FL.xob"
+  }
+  ActionsManagerComponent "{5244C34DEE7DBF9F}" {
+   ActionContexts {
+    UserActionContext "{5244C34DEE7DBF83}" {
+     Position PointInfo "{5244C34DEE7DBF80}" {
+      Offset 0 0.1 0
+     }
+    }
+   }
+  }
+ }
+ coords 1212.622 39.094 2839.711
+}

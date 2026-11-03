@@ -1,0 +1,27 @@
+GameEntity : "{27DABFBB719485AA}Prefabs/Characters/Uniforms/Pants_US_BDU_base.et" {
+ ID "5104869D194C6243"
+ components {
+  MeshObject "{5104869D194C6262}" {
+   Object "{953EC9F5F864803D}XOB/cryeg3trousers_LOD0/Tiger Stripe Woodland/g3 but_FL.xob"
+  }
+  SCR_UniversalInventoryStorageComponent "{5222CB01D5B9A306}" {
+   Attributes SCR_ItemAttributeCollection "{5222CB01245CDF32}" {
+    ItemDisplayName UIInfo "{5222CB0109A04AB2}" {
+     Name "CRY_G3_Tiger_Stripe_Woodland"
+     Description "CRY_G3"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{555292467DA11B7C}" {
+      PreviewWornModel 1
+      PreviewModel "{0C9E8FB9FF1D89BD}XOB/cryeg3trousers_LOD0/cryeg3trousers_LOD0_FL.xob"
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   WornModel "{74CB0F1B09301833}XOB/cryeg3trousers_LOD0/Tiger Stripe Woodland/g3 but.xob"
+   ItemModel "{953EC9F5F864803D}XOB/cryeg3trousers_LOD0/Tiger Stripe Woodland/g3 but_FL.xob"
+   DeflatedModel "{953EC9F5F864803D}XOB/cryeg3trousers_LOD0/Tiger Stripe Woodland/g3 but_FL.xob"
+  }
+ }
+}

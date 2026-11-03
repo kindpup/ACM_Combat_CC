@@ -1,0 +1,51 @@
+GenericEntity : "{80C8C9227D2C7CF5}Prefabs/Characters/Core/Footwear_Base.et" {
+ ID "5244C46FA7C5E08C"
+ components {
+  InventoryItemComponent "{5244C46AD695742D}" {
+   Attributes SCR_ItemAttributeCollection "{69BC276E16BFB7C9}" {
+    ItemDisplayName UIInfo "{69BC276E16BFB7C6}" {
+     Name "Hybrid_Assault_Boot"
+     Description "Hybrid_Assault_Boot_Base"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{69BC276E16BFB7F9}" {
+     Weight 2
+     SizeSetupStrategy Manual
+     ItemDimensions 15 15 15
+     ItemVolume 2500
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{69BC276E16BFB7FD}" {
+      CameraOrbitAngles -25 25 0
+      CameraDistanceToItem 2.5
+      FOV 10
+      PreviewModel "{BE6F244D34275542}xob/BOOTS/CBT_FL.xob"
+     }
+    }
+   }
+  }
+  MeshObject "{5244C34DEE7DBFB4}" {
+   Object "{8FD747ECEF536FAD}xob/BOOTS/Hybrid_Assault_Boot_FL.xob"
+  }
+  BaseLoadoutClothComponent "{5244C34DEE7DBFB2}" {
+   AreaType LoadoutBootsArea "{69BC276E16BFB7F2}" {
+   }
+   WornModel "{E5F3C60B3DD167C2}xob/BOOTS/Hybrid_Assault_Boot_Base.xob"
+   ItemModel "{8FD747ECEF536FAD}xob/BOOTS/Hybrid_Assault_Boot_FL.xob"
+   SoundInt 610
+   OverrideMeshesToHide {
+    "Foot_L" "Foot_R" "Leg_L" "Leg_R" "Calf_L" "Calf_R"
+   }
+   DeflatedModel "{8FD747ECEF536FAD}xob/BOOTS/Hybrid_Assault_Boot_FL.xob"
+  }
+  ActionsManagerComponent "{5244C34DEE7DBF9F}" {
+   ActionContexts {
+    UserActionContext "{5244C34DEE7DBF83}" {
+     Position PointInfo "{5244C34DEE7DBF80}" {
+      Offset 0 0.1 0
+     }
+    }
+   }
+  }
+ }
+ coords 174.411 1 146.557
+}

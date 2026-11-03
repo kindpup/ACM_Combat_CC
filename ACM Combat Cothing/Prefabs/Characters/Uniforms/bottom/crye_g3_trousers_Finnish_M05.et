@@ -1,0 +1,27 @@
+GameEntity : "{27DABFBB719485AA}Prefabs/Characters/Uniforms/Pants_US_BDU_base.et" {
+ ID "5104869D194C6243"
+ components {
+  MeshObject "{5104869D194C6262}" {
+   Object "{8531B2B293F68B3F}XOB/cryeg3trousers_LOD0/Finnish_M05/g3 but_FL.xob"
+  }
+  SCR_UniversalInventoryStorageComponent "{5222CB01D5B9A306}" {
+   Attributes SCR_ItemAttributeCollection "{5222CB01245CDF32}" {
+    ItemDisplayName UIInfo "{5222CB0109A04AB2}" {
+     Name "Crye_G3_pants_Finnish_M05"
+     Description "Crye_G3_pants"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{555292467DA11B7C}" {
+      PreviewWornModel 1
+      PreviewModel "{600669816631C65C}XOB/cryeg3trousers_LOD0/Afghan_NDS/butt_Afghan_NDS.xob"
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   WornModel "{382C3AFEFC246B18}XOB/cryeg3trousers_LOD0/Finnish_M05/g3 but.xob"
+   ItemModel "{8531B2B293F68B3F}XOB/cryeg3trousers_LOD0/Finnish_M05/g3 but_FL.xob"
+   DeflatedModel "{382C3AFEFC246B18}XOB/cryeg3trousers_LOD0/Finnish_M05/g3 but.xob"
+  }
+ }
+}

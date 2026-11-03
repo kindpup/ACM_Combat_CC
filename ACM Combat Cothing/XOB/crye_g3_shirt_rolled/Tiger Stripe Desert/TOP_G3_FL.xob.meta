@@ -1,0 +1,43 @@
+MetaFileClass {
+ Name "{668F93500E2393D5}XOB/crye_g3_shirt_rolled/Tiger Stripe Desert/TOP_G3_FL.xob"
+ Configurations {
+  FBXResourceClass PC {
+   Rotate 0 180 0
+   MaterialAssigns {
+    MaterialAssignClass "{6A8CF7B5614883B4}" {
+     SourceMaterial "Material"
+     AssignedMaterial "{E645634D5D2CCBF6}XOB/crye_g3_shirt_rolled/Tiger Stripe Desert/Data/Material.emat"
+    }
+   }
+   MeshParams {
+    MeshParam "crye_g3_shirt_rolled_LOD0.002" {
+    }
+   }
+   Common TXOCommonClass "{6A8CF7B5618271B6}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Blender Foundation"
+   ApplicationName "Blender (stable FBX IO)"
+   ApplicationVersion "5.0.0"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6A8CF7B5618276CF}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6A8CF7B561827697}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6A8CF7B5618276A6}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6A8CF7B56182777F}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6A8CF7B561827700}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}
